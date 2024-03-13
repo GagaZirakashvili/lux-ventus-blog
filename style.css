@@ -1,13 +1,68 @@
+
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
 
-@font-face {
-  font-family: "poppins";
-  src: url("./fonts/Poppins-Regular.ttf"); /* Corrected font file path */
+main {
+  max-width: 1280px;
+  margin: 0 auto;
 }
+
+.hero-section {
+  margin-top: 110px;
+  position: relative;
+}
+
+
+.hero-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero-section .hero-message-wrapper {
+  position: absolute;
+  top: 50%;
+  margin-top: 30px;
+  margin-left: 100px;
+  transform: translate(0, -50%);
+}
+
+.hero-section .hero-message-wrapper h2 {    
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;    
+}
+
+.hero-section .hero-message-wrapper h1 {
+  font-size: 46px;
+  font-size: 46px;
+  color: rgba(255, 255, 255, 1);
+  margin: 40px 0px;
+}
+
+.hero-section .hero-message-wrapper h1 strong {    
+  font-size: 46px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-section .hero-message-wrapper p {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  max-width: 490px;
+}
+
+.trending-section {
+  margin-top: 110px;
+}
+
+
 
 .container-2 {
   background-repeat: no-repeat;
@@ -25,19 +80,24 @@
 
 /* Add more styles as needed... */
 
-@font-face {
-  font-family: "poppins";
-  src: url(./fonts/Poppins-Regular.ttf);
-}
+
 
 .two-cont {
   display: flex;
+  justify-content: center;
 }
+
+.three-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
   width: 579px;
   height: 670px;
   border-radius: 20px;
-  margin-left: 118px;
+  /* margin-left: 118px; */
   box-shadow: 0px 6px 6px 0px #0000000d;
 }
 
@@ -126,7 +186,7 @@
 }
 
 .first-cont {
-  margin-left: 118px;
+  /* margin-left: 118px; */
   margin-top: 88px;
   display: flex;
   width: 1204px;
@@ -145,7 +205,7 @@
   margin-left: 26px;
 }
 .second-cont {
-  margin-left: 118px;
+  /* margin-left: 118px; */
   margin-top: 57px;
   display: flex;
   width: 1204px;
@@ -154,7 +214,7 @@
   box-shadow: 0px 6px 6px 0px #0000000d;
 }
 .third-cont {
-  margin-left: 118px;
+  /* margin-left: 118px; */
   margin-top: 57px;
   display: flex;
   width: 1204px;
