@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
 }
+body {
+  background-color: #f9f9f9;
+}
 
 html {
   scroll-behavior: smooth;
@@ -336,4 +339,138 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+}
+.topicscards {
+  display: flex;
+  gap: 10px;
+  max-width: 1274px;
+  margin: 30px auto;
+  border-bottom: solid 1px #bcbcbc;
+  padding-bottom: 100px;
+}
+
+.tcard {
+  width: 204px;
+  height: 291px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: 0.5s;
+  box-shadow: 0 4px 10px -2px gray;
+}
+.ttc {
+  padding-bottom: 14px;
+}
+.tcard button {
+  width: 143.81px;
+  height: 35.95px;
+  border-radius: 40px;
+  background-color: #4ce0d7;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
+.topics {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 50px;
+}
+.tcard:hover {
+  transform: scale(1.2);
+}
+.tcard button:hover {
+  background-color: #ffffff;
+  border: solid #4ce0d7;
+}
+.lt {
+  max-width: 1204px;
+  height: 698px;
+  border-radius: 20px;
+  margin: 80px auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px -2px gray;
+}
+.bckimg {
+  background-image: url(assets/bckimg.svg);
+  height: 360px;
+  width: 1204px;
+}
+.bckimg button {
+  width: 233.95px;
+  height: 36.49px;
+  border-radius: 40px;
+  border: none;
+  background-color: #262626;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.lthead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1076px;
+  margin: 20px auto;
+}
+.lthead p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #bcbcbc;
+  margin-left: 30px;
+}
+.lthead h5 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.24em;
+  text-align: left;
+  color: #f25e5e;
+  margin-left: 550px;
+}
+.ltinfo {
+  max-width: 1033px;
+  margin: 30px 65px;
+}
+.ltinfo h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #262626;
+}
+.ltinfo p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #262626;
+}
+.ltreadmore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 50px;
+}
+.ltreadmore a {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.24em;
+  text-decoration: none;
+  color: #4ce0d7;
+}
+.trendingsheadd {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-left: 40px;
+  margin-bottom: 50px;
 }
