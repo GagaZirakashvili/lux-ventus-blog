@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
 }
+body {
+  background-color: #F9F9F9;
+}
 
 html {
   scroll-behavior: smooth;
@@ -336,4 +339,49 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+}
+.topicscards {
+  display: flex;
+  gap: 10px;
+  max-width: 1274px;
+  margin: 30px auto;
+}
+
+.tcard {
+  width: 204px;
+  height: 291px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: 0.5s;
+}
+.ttc {
+  padding-bottom: 14px;
+}
+.tcard button {
+  width: 143.81px;
+  height: 35.95px;
+  border-radius: 40px;
+  background-color: #4CE0D7;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
+.topics {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 50px;
+}
+.tcard:hover{
+  transform: scale(1.2);
+}
+.tcard button:hover{
+  background-color: #ffffff;
+  border: solid #4CE0D7;
 }
